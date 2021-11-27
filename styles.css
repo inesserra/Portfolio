@@ -36,7 +36,7 @@ p {
 }
 .upper h1 {
   font-size: 80px;
-  line-height: 128px;
+  line-height: 2;
 }
 
 .upper h2 {
@@ -83,6 +83,29 @@ img {
   padding: 30px 0;
 }
 
+.about-description {
+  margin: 30px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 @media (max-width: 960px) {
   .upper h1 {
     font-size: 44px;
@@ -96,5 +119,9 @@ img {
   }
   .upper {
     padding: 80px 40px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
