@@ -133,3 +133,14 @@ img {
     padding: 0;
   }
 }
+nav {
+  font-family: var(--default-font-family);
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
